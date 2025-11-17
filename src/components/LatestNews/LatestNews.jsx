@@ -66,8 +66,8 @@ const LatestNews = () => {
 
               modalContent.images.map((img, i) => (
                 <div key={i}>
-                 {/* <img src={imgUrl+img.name}  width={100} alt="" /> */}
-                {alert(imgUrl+img.name)}
+                 <img src={imgUrl+img.name}  width={100} alt="" />
+              
                 </div>
               ))
 
