@@ -10,20 +10,21 @@ const LatestNews = () => {
 
   console.log(modal)
 
-  const handleModal = (date, title, text, links) => {
+  const handleModal = (date, title, text, links, images) => {
 
     const data = {
       date,
       title,
       text,
-      links
+      links,
+      images
     }
     setModalContent(data)
     setModal(!modal)
    
   }
 
-  const imgUrl = '../../assets/instructions/'
+  const imgUrl = 'https://intechsupport.vercel.app/assets/'
 
   return (
 
@@ -34,7 +35,7 @@ const LatestNews = () => {
         news.map((n) => (
           
          
-            <div className={styles.new} key={n.id} onClick={() => handleModal(n.date, n.title, n.text, n.links)}>
+            <div className={styles.new} key={n.id} onClick={() => handleModal(n.date, n.title, n.text, n.links, n.images)}>
               <p className={styles.newDate}>{n.date}</p>
               <p className={styles.newTitle}>{n.title}</p>
             </div>
@@ -61,6 +62,16 @@ const LatestNews = () => {
 
             }
 
+            {modalContent.images &&
+
+              modalContent.images.map((img, i) => (
+                <div key={i}>
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/250px-Image_created_with_a_mobile_phone.png"  width={imgUrl+img.name} alt="" />
+                
+                </div>
+              ))
+
+            }
             
 
             
