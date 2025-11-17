@@ -24,7 +24,7 @@ const LatestNews = () => {
    
   }
 
-  const imgUrl = '../../assets/news-images/'
+  const imgUrl = 'https://intechsupport.vercel.app' + '../../assets/news-images/'
 
   return (
 
@@ -66,8 +66,8 @@ const LatestNews = () => {
 
               modalContent.images.map((img, i) => (
                 <div key={i}>
-                 <img src={imgUrl+img.name}  width={100} alt="" />
-                
+                 {/* <img src={imgUrl+img.name}  width={100} alt="" /> */}
+                {alert(imgUrl+img.name)}
                 </div>
               ))
 
