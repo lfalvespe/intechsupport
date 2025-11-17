@@ -1,0 +1,60 @@
+
+.MonetTable table td {
+    border: 1px solid #fff;
+    background-color: #fff;
+    font-size: .8em;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+}
+
+.MonetTable th {
+    background-color: #e4e4e4;
+    color: #000;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.MonetTable .closeTabBtn {
+    text-align: right;
+    background: transparent;
+    border: unset;
+    font-size: 1.2em;
+    margin: auto;
+    color: #fff;
+    padding: 0;
+}
+
+.MonetTable .id {
+    width: 20px;
+    background: #c0c0c0;
+}
+
+.MonetTable .code {
+    font-weight: bold;
+}
+
+.MonetTable .value {
+    font-weight: bold;
+}
+
+.MonetTable .name {
+    background: rgb(3, 43, 2);
+    text-transform: capitalize;
+    text-align: left;
+    color: #ffff;
+    text-shadow: 1px 1px 2px #0000005e;
+}
+
+.MonetTable .monetized {
+    text-transform: capitalize;
+}
+
+.MonetTable .actual_value {
+    background-color: green;
+    color: #fff;
+    text-shadow: 1px 1px 2px #00000052;
+}
+
+
+

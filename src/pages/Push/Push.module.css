@@ -1,0 +1,156 @@
+.Push {
+    text-align: center;
+}
+
+.Push h1 {
+    font-size: 1.5em;
+    color: #fff;
+    background-color: black;
+    width: 80%;
+    padding: 0 20px;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.Push form {
+    margin-bottom: 60px;
+}
+
+.pushes_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 20px 0 ;
+}
+
+.push {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width: 300px;
+    height: 170px;
+    border-radius: 6px;
+    font-size: .8em;
+    box-shadow: 0px 0px 4px #fff;
+    transition: .4s;
+}
+
+.push:hover {
+    transform:scale(110%);
+    box-shadow: unset;
+}
+
+.title {
+    flex: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px 0 8px;
+    background-color: #000;
+    text-transform: uppercase;
+    height: fit-content;
+    border-radius: 6px 6px 0 0;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.copyIcon {
+    font-size: 1.3em;
+    vertical-align: text-top;
+}
+
+.copyIcon:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    place-items: center;
+    color: #000;
+    padding: 5px;
+    text-align: justify;
+    height:83%;
+    border-radius: 0 0 5px 5px;
+    text-shadow: 1px 1px 2px #00000049;
+}
+
+.advice {
+    margin-top: 80px;
+    color: rgb(241, 241, 141);
+}
+
+.copied {
+    color: rgb(214, 238, 166);
+}
+
+.A {
+    background-color: #dac9c3;
+}
+
+.B {
+    background-color: #9e96cc;
+}
+
+.C {
+    background-color: #c3d1dd;
+}
+
+.D {
+    background-color: #88c0a1;
+}
+
+.E {
+    background-color: #000;
+}
+
+.F {
+    background-color: #ccc0a0;
+}
+
+.M {
+    background-color: #aa8879;
+}
+
+.N {
+    background-color: #bba0c9;
+}
+
+.O {
+    background-color: #ccc0c0;
+}
+
+.P {
+    background-color: #d8f1cc;
+}
+
+.S {
+    background-color: #e4c387;
+}
+
+.T {
+    background-color: #c0beb0	;
+}
+
+.switch_pushes_btn {
+    margin-top: 30px;
+    width: 180px;
+    border-color: #fff;
+    transition: .5s;
+}
+
+.switch_pushes_btn:hover {
+    border-color: #fff;
+    background-color: #474747;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 550px) {
+    .push {
+        height: fit-content;
+    }
+}

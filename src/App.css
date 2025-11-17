@@ -1,0 +1,141 @@
+/* Palette
+
+/* CSS HEX 
+
+--marshland: #070804;      Black
+--inch-worm: #a3eb2c;      Light-Green
+--olive-drab: #68901d;
+--dell: #547417;           Green
+--citron: #7cad24;         Mid-Green
+--atlantis: #89bd26;
+--saratoga: #546c14;
+--atlantis: #94cf2c;
+--inch-worm: #a4ec34;
+
+--47571c                  dark-green: modified                                  
+
+*/
+
+/* #f69d3c
+#3f87a6
+#ebf8e1 */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: .5rem; */
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #070804;
+  background: linear-gradient(0.25turn, #a3eb2c, #ebf8e1, #f69d3c);
+  border-radius: 10px 10px 0 0;
+  padding: 20px;
+}
+
+header .logo {
+  width: 80px;
+  filter: drop-shadow(2px 2px 4px #000000af);
+}
+
+header h1 {
+  font-size: 3em;
+  /* border: 1px solid #878787; */
+  border-radius: 10px;
+  padding: 5px 15px;
+  filter: drop-shadow(0 0 5px #24242452);
+  box-shadow: inset 2px 2px 5px #00000041;
+  color: #383838;
+  background-color: #a9ec2c15;
+  text-shadow: 1px 1px 2px #000000a4;
+}
+
+header .avatarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  height: fit-content;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+header .avatar img {
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  filter: drop-shadow(1px 1px 2px #0000006e);
+  border-radius: 32px;
+}
+
+.nickname {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  color: #474747;
+  font-weight: bold;
+  transform: translateY(3px);
+  font-size: 0.8em;
+}
+
+.logoutBtn {
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #00000086;
+  transform: translateY(0);
+}
+
+.page-title {
+  font-size: 1.5em;
+  color: #fff;
+  background-color: black;
+  width: 80%;
+  padding: 0 20px;
+  border-radius: 5px;
+  margin: 60px auto;
+}
+
+
+@media screen and (max-width: 900px) {
+  header {
+    justify-content: space-around;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  header .logo {
+    width: 50px;
+  }
+
+  header h1 {
+    font-size: 1.4em;
+  }
+
+  header .avatar {
+    /* background-color: gray; */
+    margin-top: 5px;
+  }
+
+  header .avatar img {
+    width: 50px;
+    height: 50px;
+  }
+
+  header .nickname {
+    font-size: 0.8em;
+    transform: translateY(0);
+  }
+
+  .logoutBtn {
+    transform: translateY(-2px);
+  }
+}

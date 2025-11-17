@@ -1,0 +1,68 @@
+
+.DocModels {
+    text-align: center;
+}
+
+.DocModels h1{
+    font-size: 1.5em;
+    color: #fff;
+    background-color: black;
+    width: 80%;
+    padding: 0 20px;
+    border-radius: 5px;
+    margin: 60px auto;
+}
+
+.modelsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.model {
+    padding: 5px;
+    width: 150px;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.model:hover {
+    background-color: #a3eb2c;
+    text-shadow: 1px 1px 2px #0000007e;
+}
+
+.contentsContainer {
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.docModelsNullContainer {
+    width: 100%;
+    margin: 219px auto;
+    color:#fff;
+    text-shadow: 1px 1px 2px #0000006c;
+}
+
+.actions {
+    margin-bottom: 5px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .DocModels .img {
+        width: 100%;
+    }
+
+    .docModelsNullContainer {
+        margin: 138px auto;
+    }
+}

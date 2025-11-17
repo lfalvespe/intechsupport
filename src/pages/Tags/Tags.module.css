@@ -1,0 +1,17 @@
+.Tags {
+    text-align: center;
+}
+
+.Tags h1 {
+    font-size: 1.5em;
+    color: #fff;
+    background-color: black;
+    width: 80%;
+    padding: 0 20px;
+    border-radius: 7px;
+    margin: 60px auto;
+}
+
+.Tags .TagsTableContainer {
+    overflow-x: auto;
+}

@@ -1,0 +1,73 @@
+export const ac = [
+    {
+        id: 1,
+        code: '4537',
+        name: 'rondonópolis',
+        date: '14.10.2023',
+        status: 'active',
+    },
+    {
+        id: 2,
+        code: '4545',
+        name: 'belém',
+        date: '14.10.2023',
+        status: 'active',
+    },
+    {
+        id: 3,
+        code: '4555',
+        name: 'porto velho',
+        date: '14.10.2023',
+        status: 'active',
+    },
+    {
+        id: 4,
+        code: '4148',
+        name: 'boa vista',
+        date: '14.10.2023',
+        status: 'active',
+    },
+    {
+        id: 5,
+        code: '4523',
+        name: 'macapá',
+        date: '14.10.2023',
+        status: 'active',
+    },
+    {
+        id: 6,
+        code: '4171',
+        name: 'rio branco',
+        date: '14.10.2023',
+        status: 'active',
+    },
+    {
+        id: 7,
+        code: '4569',
+        name: 'palmas',
+        date: '14.10.2023',
+        status: 'active',
+    },
+    {
+        id: 8,
+        code: '4524',
+        name: 'manaus',
+        date: '10.10.2023',
+        status: 'active',
+    },
+    {
+        id: 9,
+        code: '4549',
+        name: 'teresina',
+        date: '19.10.2023',
+        status: 'active',
+    },
+    {
+        id: 10,
+        code: '4375',
+        name: 'rio de janeiro',
+        date: '20.11.2023',
+        status: 'testing',
+    },
+
+]

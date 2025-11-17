@@ -1,0 +1,30 @@
+.Home {
+    text-align: center;
+}
+
+.Home h1 {
+  font-size: 1.5em;
+  color: #fff;
+  background-color: black;
+  width: 80%;
+  padding: 0 20px;
+  border-radius: 7px;
+  margin: 60px auto;
+}
+
+.Home h2 {
+  margin-top: 20px;
+}
+
+.Home ul {
+  width: fit-content;
+  margin: 40px auto;
+  padding: 0;
+  text-align: left;
+
+}
+
+/* .Home .loadingContainer {
+  margin-bottom: 160px;
+} */
+

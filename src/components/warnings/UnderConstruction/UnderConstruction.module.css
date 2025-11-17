@@ -1,0 +1,31 @@
+
+.UnderConstruction img {
+    margin-top: 80px;;
+    filter: drop-shadow(5px 5px 4px #a2eb2c3d);
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+.UnderConstruction .warning {
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px #a2eb2c71;
+}
+
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+
+}

@@ -1,0 +1,210 @@
+.Scripts {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.Scripts h1 {
+    font-size: 1.5em;
+    color: #fff;
+    background-color: black;
+    width: 80%;
+    padding: 0 20px;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.Scripts form {
+    margin-bottom: 60px;
+}
+
+.Scripts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.catMenu {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.catBtn {
+    padding: 5px;
+    width: 150px;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.catBtn:hover {
+    background-color: #a3eb2c;
+    text-shadow: 1px 1px 2px #0000007e;
+}
+
+.catBox {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+
+.catTitle {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: underline;
+    flex: 100%;
+}
+
+/* categs titles */
+.gtfwTitle {
+    color: rgb(220, 253, 250);
+}
+
+.financialTitle {
+    color: rgb(205, 255, 205);
+}
+
+.checkoutTitle {
+    color: rgb(221, 190, 168);
+}
+
+.lostfoundTitle {
+    color: rgb(206, 203, 243);
+}
+
+.brandingTitle {
+    color: rgb(179, 225, 236);
+}
+
+.campaingsTitle {
+    color: rgb(235, 227, 156);
+}
+
+.invoicesTitle {
+    color: rgb(226, 226, 226);
+}
+
+.incidentsTitle {
+    color: rgb(247, 108, 108);
+}
+
+.othersTitle {
+    color: rgb(255, 255, 255);
+}
+
+
+.scriptBox {
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0 0 5px #ffffff4d;
+    transition: .4s;
+}
+
+.scriptBox:hover {
+    transform:scale(105%);
+}
+
+
+.scriptTitleContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    background: #000;
+    border-radius: 10px 10px 0 0;
+}
+
+.scriptTitle {
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    padding: 2px;
+    border-radius: 5px 5px 0 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.scriptText {
+    display: block;
+    color: #000;
+    padding: 8px;
+    text-align: justify;
+    cursor: pointer;
+    margin: 0;
+    width: 350px;
+    height: 170px;
+    resize: none;
+    scroll-behavior: auto;
+    overflow: auto;
+    border-radius: 0 0px 10px 10px;
+}
+
+/* textarea categs bg */
+.gtfwScriptText {
+    background-color: rgb(220, 253, 250);
+}
+
+.financialScriptText {
+    background: rgb(205, 255, 205);
+}
+
+.checkoutScriptText {
+    background: rgb(221, 190, 168);
+}
+
+.lostfoundScriptText {
+    background: rgb(206, 203, 243);
+}
+
+.brandingScriptText {
+    background: rgb(179, 225, 236);
+}
+
+.campaingsScriptText {
+    background: rgb(235, 227, 156);
+}
+
+.invoicesScriptText {
+    background: rgb(226, 226, 226);
+}
+
+.incidentsScriptText {
+    background: rgb(247, 108, 108);
+}
+
+.othersScriptText {
+    background: rgb(255, 255, 255);
+}
+
+.copyIcon {
+    /* vertical-align: -webkit-baseline-middle; */
+    vertical-align: bottom;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.copyIcon:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.copied {
+    color: rgb(214, 238, 166);
+}
+

@@ -1,0 +1,75 @@
+.TagsTable table {
+    margin-top: 50px;
+    padding: 2px;
+}
+
+.TagsTable table tr {
+    border: 1px solid white;
+}
+
+.TagsTable .tableTitle {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.TagsTable table td,
+th {
+    border: 1px solid #fff;
+    color: #000;
+    padding: 5px;
+    text-align: center;
+    /* width: fit-content;
+    height: fit-content; */
+}
+
+.TagsTable th {
+    line-height: 15px;
+}
+
+.TagsTable td {
+    font-family: arial;
+    font-size: .9em;
+    /* line-height: 17px; */
+    background-color: #fff;
+    font-family:monospace;
+}
+
+.TagsTable td ul {
+    margin: 0;
+    padding: 4px 18px;
+}
+
+.TagsTable td ul li {
+    text-align: left;
+}
+
+.TagsTable .category {
+    width: 80px;
+    background: orange;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.TagsTable .reasons {
+    background: rgb(240, 193, 105);
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2c2b2b;
+}
+
+.TagsTable .reasonDetails {
+    background: #fff;
+}
+
+.TagsTable .reasonDetailsPt {
+    background: rgb(252, 252, 147);
+    /* min-width: 200px; */
+}
+
+.TagsTable .catalog {
+    background: rgb(253, 253, 201);
+}
