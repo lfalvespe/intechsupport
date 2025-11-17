@@ -66,7 +66,7 @@ const LatestNews = () => {
 
               modalContent.images.map((img, i) => (
                 <div key={i}>
-                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/250px-Image_created_with_a_mobile_phone.png"  width={imgUrl+img.name} alt="" />
+                 <img src={imgUrl+img.name}  width={100} alt="" />
                 
                 </div>
               ))
