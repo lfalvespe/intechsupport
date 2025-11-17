@@ -23,6 +23,8 @@ const LatestNews = () => {
    
   }
 
+  const imgUrl = '../../assets/instructions/'
+
   return (
 
     <div className={styles.news}>
@@ -48,7 +50,9 @@ const LatestNews = () => {
             <p className={styles.newDate}>{modalContent.date}</p>
             <p>{modalContent.title}</p>
             <p>{modalContent.text}</p>
+            <p>{console.log(modalContent)}</p>
             <br />
+
             {modalContent.links && 
             
               modalContent.links.map((l, i) => (
@@ -56,6 +60,10 @@ const LatestNews = () => {
               ))
 
             }
+
+            
+
+            
           </>
         )
         }

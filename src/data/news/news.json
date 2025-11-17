@@ -4,28 +4,32 @@
         "date": "13-11-2025",
         "title": " 💆‍♂️⏯️💆 NOVA POLÍTICA DE PAUSAS",
         "text": "\nApós consultarmos nossas equipes locais de RH e Jurídico, definimos as regras obrigatórias que devem ser seguidas. \n\n➡️ Garantimos que a nova estrutura ofereça a todos uma oportunidade para descansar durante um dia de trabalho movimentado. \n\nA partir de 17/11 esta será nossa  estrutura de pausas: \n\n- Pausa para almoço: 60 minutos. \n- Pausas curtas: 10 minutos a cada 2 horas (Opcionais, mas recomendadas). \n- Pausas muito curtas para necessidades fisiológicas: 5 minutos (para serem usadas quando necessário).",
-        "links": []
+        "links": [],
+        "images": []
     },
     {
         "id": 2,
         "date": "13-11-2025",
         "title": " 🚀  RELANÇAMENTO DE CAMPO GRANDE!",
         "text": "\n 🎉 Estamos relançando e não há mais limite de casos de 'não pagou'. Se os requisitos estiverem corretos, ou seja: \n\n- Pedido concluído \n\n 🚨 Não precisamos mais dos critérios: \n\n- Autorização de contato \n- Prazo de 24h \n\nPodemos realizar o reembolso, independentemente da quantidade de vezes. \n\nApenas cidade de Campo Grande!! ",
-        "links": []
+        "links": [],
+        "images": []
     },
      {
         "id": 3,
         "date": "12-11-2025",
         "title": "🚨 TAGS: 'Left point B'",
         "text": "\n📌 QUANDO USAR ESTA TAG:  Selecione essa tag quando o entregador informar que a encomenda foi entregue, mas ele não consegue completar o pedido porque já saiu do Point B e está fora do raio permitido. \n\nOpções disponíveis que podemos oferecer aos entregadores: \n\n- Retornar ao Point B e concluir o pedido lá.\n- Cancelar o pedido: O entregador pode cancelar o pedido pelo app, mas somente após receber confirmação do remetente. (Em breve compartilharemos mais instruções sobre essa opção.) \n- Aguardar confirmação: Transferir para o time de outbound, e nós entraremos em contato com o destinatário. Assim que confirmarmos que a encomenda foi entregue, concluiremos a corrida pelo nosso lado.",
-        "links": []
+        "links": [],
+        "images": []
     },
     {
         "id": 4,
         "date": "12-11-2025",
         "title": "🚨 NOVAS TAGS: PIX",
         "text": "\nApós mapeamento de casos realizamos a criação de novas tags para os casos de pix, segue abaixo: \n\n- Para pagamentos duplicados feitos no app - Cashless / Duplicate payment / LightCashless / Payment inside de app \n- Para pagamentos em que o passageiro pagou uma vez no app e a segunda vez fez o pagamento “por fora” - Cashless / Duplicate payment / LightCashless Payment outside the app \n- Para casos onde o passageiro alega ter feito o pagamento e o motorista não realizou a corrida - Cashless /  Paid for unrealized trip \n\nOBS: Sempre é necessário consultar no sistema antes de marcar a tag, pois precisamos ter ciência se o pedido é LightCashless  ou não",
-        "links": []
+        "links": [],
+        "images": []
     },
     {
         "id": 5,
@@ -35,7 +39,8 @@
         "links": [{
             "title": "Planilha Intercity",
             "url": "https://docs.google.com/spreadsheets/d/1tdxcpto46M9WnUcPMxddVhOt-oJlDzBHiFW4mDV9JAs/edit?gid=1416983840#gid=1416983840"
-        }]
+        }],
+        "images": []
         
     },
     {
@@ -52,35 +57,51 @@
             "title": "Página da promoção:",
             "url": "https://promotion.indrive.com/pt/rh/ao/exec-contest-luanda"
             }
-        ]
+        ],
+        "images": []
     },
      {
         "id": 7,
         "date": "10-11-2025",
         "title": "🚨 SAUDAÇÃO NO CHAT MUDOU",
         "text": "\nNossa saudação mudou!: \n\nEm parceria com o team de QA, realizamos a atualização do script inicial para os chats recebidos a partir de hoje. \n\nScript já está salvo no JUST. \n\nOlá, Sr (nome), é um prazer atendê-lo. Poderia nos dar mais detalhes sobre a situação? Dentro de alguns instantes estarei dando continuidade a sua solicitação. \n\nShortcode: Oi",
-        "links": []
+        "links": [],
+        "images": []
     },
      {
         "id": 8,
-        "date": "10-11-2025",
+        "date": "03-11-2025",
+        "teste": "teste",
+        "title": "🚨 Requisitos de Documentos para o Brasil",
+        "text": "\nOs Requisitos de Documentos para o Brasil na Base de Conhecimento de Verificação já estão disponíveis! \n\n ➡️ Agora vocês podem consultar facilmente quais documentos são necessários para o processo de verificação pelo link baixo. \n\n Isso vai ajudar bastante na hora de conferir se os usuários estão enviando os documentos corretos. 💪🏻 \n\n Próximos passos: \n\n Adicionar descrições de processos (instruções) \n\n Traduções para outros idiomas \n\nMelhorar a navegação \n\n Organizar treinamentos sobre como usar a Base de Conhecimento",
+        "links": [{
+            "title": "Base de Conhecimento",
+            "url": "https://indriver.atlassian.net/wiki/spaces/DRV/pages/2833842302/Brazil"
+        }]
+    },
+    {
+        "id": 9,
+        "date": "06-11-2025",
         "title": "💳 INSTABILIDADE NO MODO CASHLESS",
         "text": "\nEstamos com uma instabilidade no modo cashless, onde o motorista transfere o valor para conta bancária e não recebe, esse é um problema que já foi relatado e estão verificando o que ocorre para normalizar o mais rápido possível. Por favor não enviem mais para fintech através do chat, só enviem esse script abaixo para o motorista: \n\nIdentificamos uma instabilidade momentânea em nosso método de transferência online. Nosso time técnico já está ciente e trabalha com prioridade máxima para restabelecer o serviço o mais rápido possível. \n\n💡 Não é necessário realizar nenhuma ação adicional neste momento — assim que o sistema for normalizado, tudo voltará a funcionar normalmente. \n\nPedimos desculpas pelo transtorno e agradecemos muito pela sua compreensão e paciência. Estamos comprometidos em garantir que sua experiência seja sempre a melhor possível. 💙 \n\nAgradecemos por confiar em nós!",
-        "links": []
+        "links": [],
+        "images": []
     },
      {
-        "id": 8,
+        "id": 10,
         "date": "01-11-2025",
         "title": "🚨 TRANSFERÊNCIA DE CASOS PARA QUALIDADE",
         "text": "\nBom dia Pessoal, o setor de incident fez contato conosco informando sobre os casos de conflitos que estão sendo repassados para eles, para evitar qualquer tipo de erro, segue abaixo quais conflitos devem ser repassados e também para não pagou sem autorização:\n\n Casos que devem ser repassados para incidentes e não pagou sem solicitar autorização: \n\n🔘 Ameaça de morte de forma direta ou indireta \n🔘 Ameaçar ir na casa do cliente \n🔘 Enviando mensagem ou ligando \n🔘 Discriminação(homofobia, gordofobia, racismo,xenofobia, etc..)\n\nCasos que não devem ser repassados para incidentes e que precisam de autorização: \n\n🔘 Me chamou de feia, gritou comigo, falou palavrão \n🔘 Passageiro estava bebado \n🔘 Xingamentos em geral que não tenha ameaça a vida \n\nOBS: Antes de passar para incidentes lembrem de recolher um bom relator e avaliar se o caso se encaixa pra transferência ou não.",
-        "links": []
+        "links": [],
+        "images": []
     },
      {
-        "id": 9,
+        "id": 11,
         "date": "31-10-2025",
         "title": " 🛵 TRANSFERÊNCIA DE ENTREGAS NÃO REALIZADAS PARA QUALIDADE",
         "text": "\n Boa tarde Pessoal, segue abaixo uma mudança referente ao processo de entrega não realizada que passamos para incident-management-support-brazil \n\n🔘Tratamento em chat continua normal, analista responsável solicita todos os dados e repassa para Outbound Calls via botão do just \n🔘Para o agente responsável na planilha só iremos passar caso de entrega não realizada para incidents quando o status estiver em DONE e finalizada no ponto B, caso não tenha esse critério não repassamos \n🔘Também não repassamos pedidos B2B, é totalmente conosco. \n🔘Por que essa mudança? Notamos que estávamos tendo um retrabalho muito grande para ficar ligando para os casos quando ultrapassava o prazo de 2h, então agora esperamos um maior controle da nossa parte e de incident",
-        "links": []
+        "links": [],
+        "images": []
     }
 
    
