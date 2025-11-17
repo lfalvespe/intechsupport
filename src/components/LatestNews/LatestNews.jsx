@@ -24,7 +24,7 @@ const LatestNews = () => {
    
   }
 
-  const imgUrl = 'https://intechsupport.vercel.app/assets/'
+  const imgUrl = '../../assets/news-images/'
 
   return (
 
