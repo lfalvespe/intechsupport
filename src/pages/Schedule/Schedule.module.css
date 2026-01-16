@@ -13,6 +13,50 @@
     margin-top: 110px;
 }
 
+.usersContainer {
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.userLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+
+.userName {
+    background-color: rgba(15, 13, 13, 0.37);
+    width: 150px;
+}
+
+.userStatus {
+    background-color: #f1eeba;
+    width: 100px;
+    font-size: 1.2em;
+    border-top-right-radius: 4px;
+}
+
+
+.blink {
+   animation: blink-animation .8s steps(1, start) infinite;
+   filter: drop-shadow(0 0 5px yellow);
+   color: rgb(138, 248, 35);
+   text-transform: uppercase;
+   font-weight: bold;
+   /* font-style: italic; */
+}
+
+@keyframes blink-animation {
+    50% {
+        visibility: hidden;
+    }
+}
+
+
+
 @media screen and (max-width: 570px) {
     .Shedule h1 {
         font-size: 1.3em;

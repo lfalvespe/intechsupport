@@ -14,3 +14,48 @@
     margin-bottom: 160px;
 }
 
+.linksContainer {
+    margin: 0 auto;
+    width: fit-content;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.linkItem {
+    width: 400px;
+    border-radius: 4px;
+}
+
+.linkItem:nth-child(even) {
+    background-color: rgb(131, 127, 127);
+}
+
+.linkItem:nth-child(even) a{
+    color: #1f1f1f;
+}
+
+.linkItem:nth-child(odd) {
+    background-color: rgb(27, 27, 27);
+}
+
+.linkItem:nth-child(odd) a{
+   color: #dbdbdb;
+   text-shadow: 1px 1px 2px #000000b6;
+}
+
+.linkName {
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.linkName:hover {
+    background-color: rgb(202, 243, 120);
+}
+
+
+

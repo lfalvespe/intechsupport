@@ -8,7 +8,7 @@ span {
 }
 
 
-.YearsTable table td {
+.cnhMotoTable table td {
     border: 1px solid #fff;
     background-color: #fff;
     font-size: .8em;
@@ -17,7 +17,7 @@ span {
     color: #424141;
 }
 
-.YearsTable th {
+.cnhMotoTable th {
     background-color: #c0c0c0;
     color: #000;
     padding: 5px;
@@ -25,12 +25,12 @@ span {
     text-transform: capitalize;
 }
 
-.YearsTable .id {
+.cnhMotoTable .id {
     width: 20px;
     background: #c0c0c0;
 }
 
-.YearsTable .name {
+.cnhMotoTable .name {
     padding-left: 5px;
     background-color: bisque;
     font-weight: bold;
@@ -39,21 +39,9 @@ span {
     color: #424141;
 }
 
-
-.YearsTable .cityYear, .YearsTable .intercityYear {
-    font-weight: bold;
-}
-
-.YearsTable .cityYear {
-    background-color: rgb(253, 238, 188);
-}
-
-.YearsTable .intercityYear {
-    background-color: rgb(250, 160, 42);
-}
-
-.YearsTable .cnh {
+.cnhMotoTable .cnh {
     color: red;
+    padding: 0 5px;
 }
 
 .closeTabBtn {

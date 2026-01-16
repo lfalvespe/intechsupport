@@ -1,9 +1,18 @@
 import styles from "./LatestNews.module.css";
 
-import  news  from "../../data/news/news.json";
+import  newslist  from "../../data/news/news.json";
+
 import { useState } from "react";
 
 const LatestNews = () => {
+ 
+
+ let news = []
+
+ newslist.map((n) => {
+  news.push(n)
+ })
+
 
   const [modal, setModal] = useState(false)
   const [modalContent, setModalContent] = useState('')
@@ -24,25 +33,25 @@ const LatestNews = () => {
    
   }
 
-  const imgUrl = 'https://intechsupport.vercel.app/../../assets/news-images/'
 
   return (
 
     <div className={styles.news}>
 
       <div className={styles.newsContainer}>
+
       {news &&
         news.map((n) => (
           
          
             <div className={styles.new} key={n.id} onClick={() => handleModal(n.date, n.title, n.text, n.links, n.images)}>
+              <p className={styles.newMonth}> {n.month} </p>
               <p className={styles.newDate}>{n.date}</p>
               <p className={styles.newTitle}>{n.title}</p>
             </div>
          
         ))}
     </div>
-
 
     <div className= {modal? styles.visibleModal : styles.hidden}>
       <div className={styles.modalContent}>
@@ -57,21 +66,21 @@ const LatestNews = () => {
             {modalContent.links && 
             
               modalContent.links.map((l, i) => (
-                <div key={i}><a href={l.url} target="_blank">{l.title}</a><br /><br /></div>
+                <div key={i} className={styles.newsLinks}>🔗 <a href={l.url} target="_blank">{l.title}</a><br /><br /></div>
               ))
 
             }
 
-            {modalContent.images &&
+            <div className={styles.newsImages}>
 
-              modalContent.images.map((img, i) => (
-                <div key={i}>
-                 {/* <img src={imgUrl+img.name}  width={100} alt="" /> */}
-                {alert(imgUrl+img.name)}
-                </div>
-              ))
-
-            }
+              {modalContent.images &&
+                modalContent.images.map((img, i) => (
+                  <div key={i}>
+                   <a href={`news-images/${img.name}`} target="_blank"><img src={`news-images/${img.name}`} alt="" className={styles.newImg} /></a>
+                  </div>
+                ))
+              }
+            </div>
             
 
             

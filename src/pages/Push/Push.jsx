@@ -15,7 +15,7 @@ const Push = () => {
     const [loading, setLoading] = useState(false)
     const [showMostUsed, setshopwMostUsed] = useState(true)
 
-    const [mostUsed] = useState([19, 20, 23, 24, 25, 26, 33, 34, 35, 30, 29, 22, 16, 8])
+    const [mostUsed] = useState([19, 20, 21, 22, 35, 36, 37, 25, 26, 27, 28, 32])
 
     const [isCopy, setIsCopy] = useState('')
 

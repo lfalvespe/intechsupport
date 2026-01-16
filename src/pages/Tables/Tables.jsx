@@ -9,6 +9,8 @@ import CargoTable from '../../components/tables/CargoTable/CargoTable'
 import AyanTable from '../../components/tables/AyanTable/AyanTable'
 import InterCityTable from '../../components/tables/InterCityTable/InterCityTable'
 import YearsTable from '../../components/tables/YearsTable/YearsTable'
+import CnhMotoTable from '../../components/tables/CnhMotoTable/CnhMotoTable'
+import PhotoMotoTable from '../../components/tables/PhotoMotoTable/PhotoMotoTable'
 import CourierTable from '../../components/tables/CourierTable/CourierTable'
 import MotoTaxiTable from '../../components/tables/MotoTaxiTable/MotoTaxiTable'
 import MonetTable from '../../components/tables/MonetTable/MonetTable'
@@ -31,6 +33,14 @@ const Tables = () => {
 
                 <div className={styles.tab} onClick={() => setTable(<YearsTable func={() => setTable(null)}/>)}>
                     Anos Permitidos
+                </div>
+
+                <div className={styles.tab} onClick={() => setTable(<CnhMotoTable func={() => setTable(null)}/>)}>
+                    CNH Moto Táxi
+                </div>
+
+                <div className={styles.tab} onClick={() => setTable(<PhotoMotoTable func={() => setTable(null)}/>)}>
+                    Foto Moto Táxi
                 </div>
 
                 <div className={styles.tab} onClick={() => {

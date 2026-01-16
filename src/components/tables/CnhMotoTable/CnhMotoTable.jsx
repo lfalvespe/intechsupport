@@ -1,13 +1,13 @@
-import styles from './YearsTable.module.css'
+import styles from './CnhMotoTable.module.css'
 
-import { years } from '../../../data/tables/years'
+import { cnhMoto } from '../../../data/tables/CnhMoto'
 
-const YearsTable = ({ func }) => {
+const CnhMotoTable = ({ func }) => {
 
-  const yearsList = years
+  const cnhMotoList = cnhMoto
 
   return (
-    <div className={styles.YearsTable}>
+    <div className={styles.cnhMotoTable}>
 
       <table>
 
@@ -16,26 +16,22 @@ const YearsTable = ({ func }) => {
             <th className={styles.closeTabBtn} colSpan={5} onClick={func} style={{backgroundColor: 'transparent', border: 'unset', color: '#fff'}}>close</th>
           </tr>
           <tr>
-            <th colSpan={5} style={{ background: '#181818', border: '1px solid #fff', color: '#fff', textTransform: 'uppercase' }}>anos permitidos</th>
+            <th colSpan={5} style={{ background: '#181818', border: '1px solid #fff', color: '#fff', textTransform: 'uppercase' }}>CNH para Moto TáXI</th>
           </tr>
           <tr>
             <th>id</th>
             <th>city</th>
-            <th>year</th>
             <th>CNH requirements</th>
-            <th>intercity</th>
           </tr>
         </thead>
 
         <tbody>
 
-          {years.map((city) => (
+          {cnhMotoList.map((city) => (
             <tr>
               <td className={styles.id}>{city.id}</td>
               <td className={styles.name}>{city.name}</td>
-              <td className={styles.cityYear}>{city.cityYear}</td>
               <td className={styles.cnh}>{city.cnh}</td>
-              <td className={styles.intercityYear}>{city.intercityYear}</td>
             </tr>
 
           ))}
@@ -50,4 +46,4 @@ const YearsTable = ({ func }) => {
   )
 }
 
-export default YearsTable
+export default CnhMotoTable

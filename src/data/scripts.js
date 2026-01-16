@@ -6,20 +6,18 @@ export const scripts = [
       {
         title: "saudação",
         text: `
-Olá, {!Contact.Name}! Que bom tê-lo(a) aqui no Suporte Técnico da inDrive. 
-Meu nome é {!User.FirstName} e estou aqui para tornar sua experiência o mais 
-tranquila possível. Se você ainda não compartilhou sua solicitação, por favor, 
-fique à vontade para fazer isso agora. Estou pronto(a) para ajudar em qualquer 
-coisa que precisar. Como posso tornar o seu dia mais fácil?
+ Olá! Sou o(a) XXX, seu agente de suporte. Vou ajudá-lo em apenas um momento.
 		`,
       },
       {
-        title: "caro usuário, inatividade",
-        text: "Prezado usuário,Estamos empenhados em resolver sua solicitação, no entanto, notamos que houve falta de interação de sua parte. Por isso, infelizmente, estamos encerrando este contato. Se sua questão ainda estiver pendente ou se precisar de assistência, por favor, não hesite em entrar em contato conosco novamente. Estamos sempre aqui para ajudar.",
+        title: "Caro usuário, inatividade",
+        text: `Prezado usuário, Acho que você não pode falar agora, certo? 
+        
+📲 Quando você responder, continuaremos o atendimento de onde parou. Estamos empenhados em resolver sua solicitação ☺️💚`,
       },
       {
         title: "algo mais",
-        text: "Solicitação enviada, {!Contact.Name}! Posso lhe ajudar com alguma outra questão?",
+        text: "Solicitação enviada, sr(a) XXX! Posso lhe ajudar com alguma outra questão?",
       },
       {
         title: "agradecer",
@@ -27,23 +25,8 @@ coisa que precisar. Como posso tornar o seu dia mais fácil?
       },
       {
         title: "encerramento Just",
-        text: `A equipe inDrive agradece o seu contato ❤️ 
-
-Para podermos prestar o melhor serviço aos nossos queridos usuários, avalie a nossa conversa (minha ajuda para você) através da das estrelas que aparecerão ao encerrar o chat.
-		  
-		  
-5 - Excelente suporte  ⭐️⭐️⭐️⭐️⭐️
-		  
-4 - Suporte muito bom  ⭐️⭐️⭐️⭐️
-		  
-3 - Suporte aceitável  ⭐️⭐️⭐️
-		  
-2 - Suporte fraco: desapontado  ⭐️⭐️
-		  
-1 - Suporte ruim: decepcionado  ⭐️
-		  
-		  
-Se precisar de mais informações ou tiver qualquer dúvida adicional, não hesite em nos contatar. Estamos sempre à disposição para atendê-lo da melhor maneira possível. Obrigado pelo seu tempo e feedback.`,
+        text: `Sua solicitação foi concluída!
+Se precisar de mais alguma coisa, é só chamar! 😉🚗`,
       },
       {
         title: "repassado",
@@ -96,29 +79,42 @@ Diante das violações dos termos de uso e/ou comportamentos inadequados, o chat
       {
         title: "corridas não pagas (Sem dados)",
         text: `
-Lamentamos que o passageiro tenha saído sem pagar!Por gentileza, envie desta forma os dados necessários: 
-	
-1. Data da corrida: 
-2. Cidade: 
-3. Nome do passageiro: 
-4. Número atual com DDD: 
-5. Valor total: 
-6. Ponto de partida: 
-7. Ponto de chegada: 
-8. Autoriza passar o seu contato ao passageiro? (Sim ou não) 
-				
-Caro usuario, lembramos que acessando o chat através do seu histórico de corridas, todas essas informações solicitadas anteriormente irão aparecer automaticamente e assim facilitando a resolução do seu problema.`,
+Entendo que você está chateado porque o passageiro saiu sem pagar. Isso não é aceitável e vai contra as regras do nosso app.
+Você pode me enviar um print da corrida ou as informações abaixo?
+
+1. Data da corrida:
+2. Nome do passageiro:
+3. Ponto de partida e de chegada:
+
+Caso ocorra de ter mais reclamações referente a alguma corrida, basta que verifique em seu histórico, selecione a corrida e nos contate, assim irá agilizar seu atendimento.
+`,
       },
       {
         title: "corridas não pagas (Com dados)",
         text: `
-Lamentamos que o passageiro tenha saído sem pagar!
-Esse tipo de atitude infringe diretamente as regras do nosso aplicativo. Precisamos da sua autorização para que possamos mediar a resolução desse problema, o Sr. autoriza que passemos o seu contato para o passageiro (Sim ou Não)?`,
+Entendo que você está chateado porque o passageiro saiu sem pagar. Isso não é aceitável e vai contra as regras do nosso app. Preciso da sua ajuda para resolver isso. `,
       },
       {
-        title: "corridas não pagas (finalização)",
+        title: "corridas não pagas bônus 1, 2",
         text: `
-Queremos te informar, {Name}, que registramos a situação em nosso sistema! Já tomamos as medidas necessárias após receber a sua denúncia, e o passageiro foi notificado sobre o pagamento pendente. Iremos entrar em contato com o mesmo e em caso de não pagamento, a conta dele será bloqueada.
+  sr(a) XXX, agradecemos o aviso e entendemos sua frustração. Sua reclamação sobre a viagem não paga foi recebida e está em análise. Se for confirmada, o valor será creditado em 24h e o passageiro penalizado.
+`,
+      },
+      {
+        title: "corridas não pagas bônus 3",
+        text: `
+   sr(a) XXX, agradecemos o aviso e lamentamos o ocorrido. Sua reclamação está sendo analisada e, se confirmada, o valor será creditado em 24h. Lembramos que nossa política permite até três reembolsos desse tipo.
+`,
+      },
+      {
+        title: "corridas não pagas bônus >= 4 ",
+        text: `
+    sr(a) XXX, entendemos a sua frustração. Tomaremos as medidas adequadas com o passageiro, mas não podemos fazer outra compensação, pois o limite de três indenizações por viagens não pagas foi atingido. Para evitar futuros problemas, sugerimos que lembre os passageiros sobre o pagamento no final da viagem.
+`,
+      },
+      {
+        title: 'corridas não pagas - não elegíveis',
+        text: `Queremos te informar, {Name}, que registramos a situação em nosso sistema! Já tomamos as medidas necessárias após receber a sua denúncia, e o passageiro foi notificado sobre o pagamento pendente. Iremos entrar em contato com o mesmo e em caso de não pagamento, a conta dele será bloqueada.
 
 Pedimos desculpas pelo transtorno e agradecemos pela sua paciência. Se precisar de mais alguma ajuda, estaremos à disposição. Pode contar conosco!
 L`,
@@ -130,35 +126,37 @@ Nós tomaremos as providências para que você receba sim o valor do passageiro.
 `,
       },
       {
-        title: 'corridas não pagas - não reembolsamos',
+        title: 'pix por engano',
         text: `
-A inDriver, nestes casos, não cobre o valor do pagamento não realizado. Não somos um serviço de táxi, e sim uma plataforma online que ajuda a conectar os motoristas e os passageiros, fornecendo uma possibilidade de se encontrarem, e que no momento não tem fins lucrativos. Não realizamos transações financeiras pelo aplicativo, o pagamento sempre é feito entre os usuários.
+Entendemos a situação e lamentamos pelo transtorno. 
+Como a inDrive não realiza intermediação de pagamentos entre passageiros e motoristas parceiros, não temos acesso aos valores acordados ou pagos. O pagamento acontece diretamente entre as partes, de forma independente, e por isso não conseguimos intervir em casos relacionados a valores. 
 
-Sendo assim, o reembolso nesse caso não é possível. No entanto, nós tomamos as providências para que você receba  o pagamento do passageiro. Entramos em contato com o mesmo e buscamos solicitar o pagamento. Se ele se recusar a pagar sem nenhum esclarecimento, nós efetuamos o bloqueio ou o banimento da plataforma, pois não permitimos passageiros maus pagadores em nossa plataforma.
+Recomendamos verificar diretamente com o banco ou meio de pagamento utilizado para identificar o que pode ter ocorrido. 
+
+Ainda assim, encaminharemos uma notificação ao usuário envolvido para reforçar nossos padrões de conduta. 
+
 `,
       },
       {
         title: "retirada de saldo",
         text: `
-Por gentileza, envie desta forma os dados necessários para nosso e-mail https://indrive.com/pt/contacts/support/:
+Por gentileza, envie os dados solicitados agora mesmo, seja aqui no chat ou pelo nosso e-mail: https://indrive.com/pt-br/contacts/support.
 
 Nome completo:
 RG:
 Número da conta:
 Agência:
-Código SWIFT:
+Chave Pix:
 Valor do reembolso:
 
-Envie também os 6 documentos seguintes:
+Envie também os 4 documentos seguintes:
 
 1. Comprovante de residência
 2. Scan do RG
 3. Comprovante de pagamento
-4. Scan do cartão de crédito (não mostre o seu código de verificação de cartão (CVC) impresso no verso do cartão!)
-5. Baixe a declaração de reembolso e envie preenchida (DE PRÓPRIO PUNHO) e assinada (DE PRÓPRIO PUNHO), o modelo está no link:
-https://www.mediafire.com/file/31hywevagy1vewo/Reembolso_Brasil_inDrive..docx/file
+4. Baixe a declaração de reembolso, imprima e após isso preencha e assine a próprio punho, o modelo está no link:  https://file-storage-front.eu-east-1.indriverapp.com/api/v1/files/0193fcc5-d1c8-7252-a587-9a85167b82ae
 
-OBS: Quando for solicitar o reembolso, tenha em mente que seu saldo não pode ficar menor que o valor na solicitação ou haverá conflito de informação na hora do reembolso. Faça nova recarga para manter seu saldo acima do valor solicitado na declaração ou não utilize o app para não diminuir seu saldo abaixo do que deverá ser reembolsado. O prazo para reembolso é de 30 dias.
+OBS: Quando for solicitar o reembolso, tenha em mente que seu saldo não pode ficar menor que o valor na solicitação ou haverá conflito de informação na hora do reembolso. Faça nova recarga para manter seu saldo acima do valor solicitado na declaração ou não utilize o app para não diminuir seu saldo abaixo do que deverá ser reembolsado. O prazo para reembolso é de até 15 dias.
 `,
       },
       {
@@ -186,16 +184,10 @@ O prazo para análise do seu pedido é de até 10 dias. Pedimos a sua compreens�
       {
         title: "passageiro sujou",
         text: `
-Lamentamos que o passageiro tenha sujado seu veículo!  Por gentileza, acesse nosso site indrive.com, vá para a aba 'Sobre nós' > 'Contato', selecione a opção 'Fale Conosco' e envie o formulário abaixo preenchido:
+Olá, sr(a) . Sentimos muito por isto. Por gentileza, envie duas fotos que comprovam a situação:
 
-1. Data da corrida:
-2. Cidade:
-3. Seu nome:
-4. Número de celular:
-5. Valor da corrida:
-6. Trajeto da corrida:
-7. Nome do passageiro:
-8. Duas fotos que comprovam a situação: uma foto do carro com a porta aberta (é preciso que sejam visível o banco sujo, a cor e o modelo do carro) e outra foto só do banco sujo junto com a CNH aberta)
+- Uma foto do carro com a porta aberta (é preciso que sejam visível o banco sujo, a cor e o modelo do carro) 
+ - Outra foto só do banco sujo junto com a CNH aberta)
 `,
       },
       {
