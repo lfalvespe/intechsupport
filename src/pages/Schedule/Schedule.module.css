@@ -21,10 +21,11 @@
 .userLine {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-between;
     gap: 5px;
     margin-bottom: 5px;
     border-bottom: 1px solid #fff;
+    /* background-color: aquamarine; */
 }
 
 .userName {
@@ -33,9 +34,9 @@
 }
 
 .userStatus {
-    background-color: #f1eeba;
-    width: 100px;
-    font-size: 1.2em;
+    background-color: #6b6b6870;
+    width:100px;
+    font-size: 1.3em;
     border-top-right-radius: 4px;
 }
 
@@ -43,7 +44,7 @@
 .blink {
    animation: blink-animation .8s steps(1, start) infinite;
    filter: drop-shadow(0 0 5px yellow);
-   color: rgb(138, 248, 35);
+   color: rgba(223, 247, 179, 0.856);
    text-transform: uppercase;
    font-weight: bold;
    /* font-style: italic; */

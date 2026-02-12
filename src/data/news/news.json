@@ -1,6 +1,65 @@
 [       
         {
-        "id": 49,
+        "id": 15,
+        "month": "janeiro",
+        "year": 2026,
+        "date": "22-01-2026",
+        "title": "📷 Novo Procedimento de Controle por Foto (Media Checker)",
+        "text": "\n🔴 Informamos que o link antigo do Photocontrol Global foi desativado. A partir de agora, as solicitações devem ser realizadas exclusivamente através do painel administrativo regional. (Link abaixo)\n\n📝 Passo a Passo para Criar Tarefa\n\n1 - Navegação: No menu lateral, acesse Media Checker (em Latam Brazil).\n2 - Criação: Clique no botão 'Create Task' (localizado no canto superior direito).\n3 - Preenchimento: Siga as orientações abaixo para preencher os campos obrigatórios :\n\n🔘Check Type (Tipo de Verificação temos as opções):\n\ncomfort => (Para Solicitar comfort)\nbrand => (Para Solicitar Fotos de Adesivação)\nappcity_avatar => (Para Solicitar Fotos de perfil no modo cidade)\nappcity_auto =>(Para Solicitar Fotos do veículo no modo cidade)\nintercity_auto => (Para Solicitar Fotos do veículo no modo cidade a cidade)\nintercity_avatar =>(Para Solicitar Fotos do Perfil no modo cidade a cidade)\ndelivery_bag => (Para Solicitar Fotos de mochila bag)\n\n🔘 External ID:\n\nSeria o ID do passageiro ou do Motorista\n\n🔘 Entity Type:\n\nauto => (Para solicitações relacionadas ao veículo)\n\ncontractor => (Para Assuntos relacionados a foto perfil)\n\n🔘 Reasons (Motivos):\nDescreva o motivo da solicitação.\n\n🔘 E por fim selecionar o botão CREATE (CRIAR)\n\nOBSERVAÇÕES : Todos os campos devem ser preenchidos de acordo com opções acima em inglês e letras minúsculas, única opção livre seria o motivo.\n\nSeguem os prints do passo a passo:",
+        "links": [
+            {
+                "title": "Link de Acesso - Novo Painel",
+                "url": "https://cherdak.console3.com/br/media-checker/tasks"
+            }
+        ],
+        "images": [
+            {"name": "id-15-22-01-2026-photocontrol-1.png"},
+            {"name": "id-15-22-01-2026-photocontrol-2.png"}
+        ]
+        },
+        {
+        "id": 14,
+        "month": "janeiro",
+        "year": 2026,
+        "date": "20-01-2026",
+        "title": "🚨 Scripts de Não Pagamento - ATUALIZAÇÃO",
+        "text": "\n🔴 Alterações nos scripts de não pagamento e finalização de casos.\n\n Por que essa alteração ? Essa mudança foca em simplificar o processo e tratativa dos casos, os scripts antigos estava confundindo bastante todos os vocês e devido a isso estava sendo despontuados, então a partir de agora ficou mais simples. Com essa mudança esperamos melhor tratamento dos casos e envio dos scripts corretamente.\n\nNovos scripts:\n\n🔘 Não pagou(npg) e chuva\n\nUtilizaremos o script quando o motorista atender aos requisitos do não pagou. Caso não atenda será necessário solicitar contato e seguir o atendimento normalmente com relato/push e envio do script imediato.\n\nQuando utilizar o 'chuva'? Se o motorista reclamar que não recebeu o bônus e questionar sobre\n\n🔘 Novo 'fim'\n\nQuando tratamos todo o caso, perguntado se ajuda em algo mais e foi respondido. Ou também quando já tratamos todo o caso e o usuário não aceita a informação.\n\n🔘 Novo 'prezado'\n\nQuando solicitamos algum dado/informação e o usuário não responde, exceto financeiro/incident/assuntos mais graves\n\nOBS: todos os scripts foram atualizados em catálogo e just",
+        "links": [
+            {
+                "title": "Catálogo",
+                "url": "https://docs.google.com/spreadsheets/d/1A3DXT_KrWxASu9dlELPGRyGIaigkML5phXAoOeeUEiY/edit?gid=1529961#gid=1529961"
+            }
+        ],
+        "images": []
+        },
+        {
+        "id": 13,
+        "month": "janeiro",
+        "year": 2026,
+        "date": "20-01-2026",
+        "title": "🛵 Entregas B2B: Atualização ⚠️",
+        "text": "\n🔴 Todos os novos entregadores e motoristas de não terão acesso a pedidos B2B até completarem pelo menos duas entregas.\n\nCaso tentem pegar um pedido irá apresentar essa mensagem do print abaixo:\n\n⚠️ Não se trata de um erro, então não devemos enviar para segunda linha\n\nTag para utilização:\n\nTutorial => How inDrive app works",
+        "links": [],
+        "images": [
+            {"name": "new-id13-jan-2026.png"}
+        ]
+        },
+        {
+        "id": 12,
+        "month": "janeiro",
+        "year": 2026,
+        "date": "20-01-2026",
+        "title": "💰Reembolso manual - Mudança 🚨",
+        "text": "\nAgora só realizamos reembolso manual para quando o passageiro cancela e o valor não retorna de forma automática no prazo de 8h, caso o motorista cancele de forma incorreta ou conclua o pedido(done), não será possível reembolso.\n\nScript para utilização:\nCada vez que você aceita um pedido, nosso sistema antifraude interno verifica se a comissão deve ser reembolsada ou não. Essa análise geralmente leva até 8 horas. Se o reembolso não ocorreu, significa que o pedido foi concluído ou que foi detectada uma atividade suspeita. Siga as regras do serviço e evite cancelamentos frequentes.\n\nShorcode em just: sem\n\n Informação atualizada no catálogo",
+        "links": [{
+            "title": "Catálogo",
+            "url": "https://docs.google.com/spreadsheets/d/1A3DXT_KrWxASu9dlELPGRyGIaigkML5phXAoOeeUEiY/edit?gid=1529961#gid=1529961"
+        }],
+        "images": 
+        []
+        },
+        {
+        "id": 11,
         "month": "janeiro",
         "year": 2026,
         "date": "16-01-2026",
@@ -11,7 +70,7 @@
         []
         },
        {
-         "id": 48,
+         "id": 10,
         "month": "janeiro",
         "year": 2026,
         "date": "14-01-2026",
@@ -26,7 +85,7 @@
         ]
     },
        {
-         "id": 47,
+         "id": 9,
         "month": "janeiro",
         "year": 2026,
         "date": "14-01-2026",
@@ -37,7 +96,7 @@
         []
     },
        {
-         "id": 46,
+         "id": 8,
         "month": "janeiro",
         "year": 2026,
         "date": "13-01-2026",
@@ -48,7 +107,7 @@
         []
     },
        {
-         "id": 45,
+         "id": 7,
         "month": "janeiro",
         "year": 2026,
         "date": "13-01-2026",
@@ -59,7 +118,7 @@
         []
     },
        {
-         "id": 44,
+         "id": 6,
         "month": "janeiro",
         "year": 2026,
         "date": "13-01-2026",
@@ -70,7 +129,7 @@
         []
     },
        {
-         "id": 43,
+         "id": 5,
         "month": "janeiro",
         "year": 2026,
         "date": "12-01-2026",
@@ -81,7 +140,7 @@
         []
     },
        {
-         "id": 42,
+         "id": 4,
         "month": "janeiro",
         "year": 2026,
         "date": "09-01-2026",
@@ -95,7 +154,7 @@
         []
     },
        {
-         "id": 41,
+         "id": 3,
         "month": "janeiro",
         "year": 2026,
         "date": "08-01-2026",
@@ -106,7 +165,7 @@
         []
     },
        {
-         "id": 40,
+         "id": 2,
         "month": "janeiro",
         "year": 2026,
         "date": "07-01-2026",
@@ -117,7 +176,7 @@
         []
     },
        {
-         "id": 39,
+         "id": 1,
         "month": "janeiro",
         "year": 2026,
         "date": "06-01-2026",
@@ -129,521 +188,5 @@
         }],
         "images": 
         []
-    },
-       {
-         "id": 38,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "26-12-2025",
-        "title": "📦 objeto levado por engano (Atualização)",
-        "text": "\n atualização para casos em que motorista entra em contato relatando que passageiro levou algum item 'por engano'. \n\n🟢 Utilizaremos a TAG: FEEDBACK > NO TAG;\n🟢 Encaminhar o caso para contato na opção: NON - DELIVERY.",
-        "links": [],
-        "images": 
-        []
-    },
-       {
-         "id": 37,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "26-12-2025",
-        "title": "📝 Instruções: cadastro e troca de veículo",
-        "text": "\n Agora temos uma sessão onde você pode consultar em caso de dúvida, sobre os seguintes temas:",
-        "links": [
-            {
-            "title": "Sobre adicionar um novo veículo",
-            "url": "https://indriver.atlassian.net/wiki/spaces/CKB/pages/3310387329/How+to+add+the+second+car+PT"
-        },
-            {
-            "title": "Como se tornar um motorista",
-            "url": "https://indriver.atlassian.net/wiki/spaces/CKB/pages/3311272050/How+to+upload+documents+PT"
-        }
-        ],
-        "images": 
-        []
-        },
-       {
-         "id": 36,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "22-12-2025",
-        "title": "🚗 FORMULÁRIO DE ADESIVAÇÃO",
-        "text": "\n Para casos de adesivação, solicitar que motorista envie fotos do veículo para o link abaixo. Prazo é de no mínimo 3 dias para retorno e o motorista deve enviar fotos ATUAIS do veículo. \n\nCaso ele informe que já envio reforce a importância que a foto seja imediata e não fotos enviadas anteriormente em outros meses, pois, caso ocorra o motorista não receberá o valor.",
-        "links": [{
-            "title": "Formulário de adesivação",
-            "url": "https://indrive.typeform.com/to/UJUvoIyX"
-        }],
-        "images": 
-        []
-    },
-    {
-         "id": 35,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "22-12-2025",
-        "title": "🚨 TRATATIVA DE CONFLITOS",
-        "text": "\n A partir de 22/12/2025 começamos a tratar casos de conflitos e danos a propriedade. Só iremos repassar para incident nas seguintes condições abaixo:\n\n🟢 CONFLITOS\n\n1. Repassamos para incident casos amarelos e vermelhos, para isso é necessário solicitar fotos, confira quais casos no artigo acima no nome conflitos.\n2. Quando o usuário tiver um boletim de ocorrência ou envolver polícia nesse conflito\n3. Quando o usuário envolver/postar algo nas mídias sociais\n4. Casos com evidência deve-se enviar para outbound cases afim de registro e arquivo do caso\n\nOBS: Quando o usuário em atendimento solicitar ligação para esse conflito, o agente em chat deve transferir para outbound cases para ser feito a ligação através do agente que está nessa função.\n\n🟢 DANOS À PROPRIEDADE\n\n1. Repassamos para incident casos amarelos e vermelhos, para isso é necessário solicitar fotos, confira quais casos no artigo acima no nome danos\n2. Quando o usuário tiver um boletim de ocorrência ou envolver polícia nesse dano\n3. Quando o usuário envolver/postar algo nas mídias sociais\n4. Casos com evidência deve-se enviar para outbound afim de registro\n\nOBS: Quando o usuário em atendimento solicitar ligação para esse dano ou analisamos que o dano foi causado de forma proposital, o agente em chat deve transferir para outbound cases para ser feito a ligação através do agente que está nessa função.\n\nTópicos que são tratados por suporte e não incident(Exceto as exceções):\n\n🔘Entrega não realizada\n🔘Conflitos\n🔘Danos à propriedade",
-        "links": [],
-        "images": 
-        []
-    },
-    {
-         "id": 34,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "19-12-2025",
-        "title": "⚠️ Finalização dos casos",
-        "text": "\n 🔘 Shortcode: fim\nUtilizar quando você tratou todo o caso e o usuário não responde a pergunta controle(posso ajudar em algo mais) ou responde não, então nesse caso utilizar o fim.\n\n🔘 Shortcode: todas\nUtilizar quando você tratou todo o caso e o usuário não aceita as informações e fica reclamando/questionando a mesma coisa, então nesse caso utilizar o todas.\n\n🔘 ShortCode: prezado.\nUtilizamos esse para quando fazermos perguntas sobre o atendimento e o usuário não responde após o primeiro strike, lembrando que não devemos encerrar em caso de incident(qualidade) ou financeiro, se não tiver resposta para esses dois casos deixamos fechar automaticamente.",
-        "links": [],
-        "images": 
-        []
-    },
-    {
-         "id": 33,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "15-12-2025",
-        "title": "🏆 Legend - Não recebeu cupom❗❗❗",
-        "text": "\n 🔘 Quando receberem casos em que motoristas com status LEGEND informarem que não receberam o cupom de R$150, por favor encaminhem o caso para o team-support-brazil.\n\n🔘 Antes disso, solicitem o CPF do motorista, pois frequentemente o CPF informado está incorreto ou pertence a outra pessoa.\n\n🔘 Além disso, peçam um print do Shell Box, na aba “Meus descontos”, para confirmar que o cupom realmente não foi recebido.",
-        "links": [],
-        "images": 
-        []
-    },
-    {
-         "id": 32,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "11-12-2025",
-        "title": "💲 NPG - Mudança de Processo - PARTE 1",
-        "text": "\n  Agora você analista irá conseguir adicionar o bônus diretamente para o motorista através de um botão no just chamado 'Check conditions' , mas antes disso vocês precisam fazer as seguintes verificações que já estamos acostumados a fazer:\n\n🔘  Corrida concluída no ponto B\n🔘 Corrida no prazo de 24h\n🔘 A cidade é monetizada\n🔘 Limite de compensação não passa de 3 vezes nos últimos 12 meses\n\n Após clicar nesse botão ocorre a verificação de todos esses critérios acima e se estiver tudo aprovado o valor entra na carteira do motorista como bônus não excedendo o valor máximo de R$40, caso um desses requisitos não seja cumprido irá apresentar o status rejeitado e ao lado um ícone com o motivo.\n\n Caso seja rejeitado é necessário vocês solicitarem a autorização de contato e tratar o caso normalmente enviando o número do motorista para o passageiro.\n\n🔸 Também com essa nova mudança teremos novos scripts para os não pagou:\n\n- Primeiro não pagou usamos o shortcod: primeiro\n- Segundo não pagou usamos o shortcod: segundo\n- Terceiro e último não pagou usamos o shortcod: terceiro\n\n ⚠️ Não será possível efetuar bônus para pagamentos parciais. E não poderá ser encaminhado também no sênior. Para isso utilize o script: IMEDIATO\n\n ⚠️ Para casos em que o motorista reclame de duas corridas, o sistema permitirá o bônus para uma corrida, a outra será necessário encaminhar em resolução para que o Sênior realize a abertura manual",
-        "links": [],
-        "images": 
-        []
-    },
-    {
-         "id": 32,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "11-12-2025",
-        "title": "💲 NPG - MUDANÇA DE PROCESSO - PARTE 2",
-        "text": "\n Padronização do relato de não pagou, agora devemos fazer da seguinte forma:\n\n 1 - Relato para corrida paga por completo e bônus adicionado:\n ➡️ M 123 informa que P 456 não pagou corrida de R$15 // Bônus aplicado\n\n 2 - Relato para corrida não paga por completo e bônus adicionado:\n ➡️ M 123 informa que P 456 pagou R$10 em uma corrida de R$15 // Bônus aplicado\n\n 3 - Relato para corrida paga por completo e bônus não adicionado:\n ➡️ M 123 informa que P 456 não pagou corrida de R$15 // Autoriza contato ou não autoriza\n\n Relato para corrida não paga por completo e bônus não adicionado:\n ➡️ M 123 informa que P 456 pagou R$10 em uma corrida de R$15 // Autoriza contato ou não autoriza\n\n OBS: Também teremos essas duas novas tags abaixo para ser utilizada apenas quando iniciarmos o novo processo de não pagou:\n\n 🔸Corrida não paga por completo: Order related issues / Financials issues / Passenger didn't pay at all\n 🔸Corrida não paga parcial:  Order related issues / Financials issues / Passenger didn't pay part of price",
-        "links": [],
-        "images": 
-        []
-    },
-    {
-         "id": 32,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "11-12-2025",
-        "title": "🏅 NOVA ABA PLATINUM",
-        "text": "\n Agora temos uma aba em nosso sistema para verificar o status planitum, então toda segunda temos mudança de status, se um usuário reclamar que cumpriu os requisitos e seu status não foi alterado por favor enviem o caso no 🔒team-support-brazil que vamos verificar, caso tenha cumprido as metas iremos alterar o status.",
-        "links": [],
-        "images": 
-        []
-    },
-    {
-         "id": 31,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "11-12-2025",
-        "title": "❗❗❗ Continuação novos scripts Incidentes",
-        "text": "\n 🔘 [SE for um caso em que o usuário relatou se machucar ou estar abalado psicologicamente\n Informamos também que oferecemos um Seguro de Acidentes Pessoais e apoio psicológico gratuito caso você tenha interesse. Na ligação, você receberá mais informações sobre a possibilidade de acionar esses serviços.\n\n 🔘 [SE for um caso de ESTUPRO E VIOLÊNCIA SEXUAL GRAVE - casos vermelhos]\n Se a violência ocorreu nas últimas 72 horas, recomendamos buscar a Profilaxia Pós-Exposição (PEP) o mais rápido possível.\n\n 🔘 O que é? É um tratamento de emergência que reduz o risco de infecções como HIV e outras  ISTs (infecções sexualmente transmissíveis)\n\n 🔘 Onde buscar? O SUS oferece o tratamento imediatamente em UBSs, UPAs e Centros de Testagem (CTAs). \n\n 🔘 Importante: Você NÃO precisa de Boletim de Ocorrência (B.O.) para ser atendida. Para se informar sobre seus direitos e buscar orientação, você também pode ligar para a Central de Atendimento à Mulher, discando 180. Este é um serviço gratuito e sigiloso do governo federal, disponível 24 horas por dia, que recebe denúncias de violência contra mulheres. O serviço também está acessível pelo WhatsApp através do número (61) 9610-0180.\n\n 🔘 [SE for um caso de VIOLÊNCIA CONTRA A MULHER - casos verdes/amarelos]  \n Para se informar sobre seus direitos e buscar orientação, você também pode ligar para a Central de Atendimento à Mulher, discando 180. Este é um serviço gratuito e sigiloso do governo federal, disponível 24 horas por dia, que recebe denúncias de violência contra mulheres. O serviço também está acessível pelo WhatsApp através do número (61) 9610-0180",
-        "links": [
-            {
-                "title": "Brasil Support Trabalho",
-                "url": "https://docs.google.com/spreadsheets/d/1tdxcpto46M9WnUcPMxddVhOt-oJlDzBHiFW4mDV9JAs/edit?pli=1&gid=1630918920#gid=1630918920"
-            },
-            {
-                "title": "Incident management",
-                "url": "https://docs.google.com/presentation/d/1oqEwdpe6Wj9gneiBWxx2bqLoZwd3jL0_ENdYSooPsvM/edit#slide=id.g26de6b3f1be_0_311"
-            }
-        ],
-        "images": 
-        []
-    },
-    {
-         "id": 30,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "09-12-2025",
-        "title": "🚨🚨 bloqueios incidentes",
-        "text": "\nA aplicação do bloqueio é OBRIGATÓRIA nos casos abaixo:\n\n 🔘 Roubo; \n\n🔘 Tentativa de Assalto;\n\n 🔘 Estupro; \n\n 🔘 Tentativa de Estupro;\n\n Ameaça com arma;🔘 Compra ou transporte de drogas.\n\n Em caso de dúvidas, consultem os materiais abaixo:",
-        "links": [
-            {
-                "title": "Brasil Support Trabalho",
-                "url": "https://docs.google.com/spreadsheets/d/1tdxcpto46M9WnUcPMxddVhOt-oJlDzBHiFW4mDV9JAs/edit?pli=1&gid=1630918920#gid=1630918920"
-            },
-            {
-                "title": "Incident management",
-                "url": "https://docs.google.com/presentation/d/1oqEwdpe6Wj9gneiBWxx2bqLoZwd3jL0_ENdYSooPsvM/edit#slide=id.g26de6b3f1be_0_311"
-            }
-        ],
-        "images": 
-        []
-    },
-    {
-         "id": 29,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "10-12-2025",
-        "title": "⚠️ Entregas serão tratadas na primeira linha 🛵",
-        "text": "\nA partir de segunda-feira (15/12) todos os casos de entrega não realizadas serão processados na primeira linha; \n\nIsso significa que mesmo o valor da entrega sendo superior a R$ 50,00 não transferimos mais para INCIDENTES. \n\nO processo é o mesmo: investigamos o caso, tentando entender o que aconteceu com a encomenda, se foi roubada ou não, etc.\n\n Obs: Casos de B2B seguem a mesma tratativa, os casos que forem elegíveis o cliente continua recebendo o estorno do valor.\n\n 🚨 só repassamos para incidents se envolver polícia",
-        "links": [],
-        "images": 
-        []
-    },
-    {
-         "id": 28,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "09-12-2025",
-        "title": "🟢 Nova aba Status de Verificação",
-        "text": "\nFoi adicionada uma nova aba 'Status de Verificação' para solicitações de chat no nosso just \n\n🔘 Sempre que o motorista acessar o chat selecionando sua vertical(motorista, entregador,  intercity. etc...) irá apresentar seu status se consta aprovado ou rejeitado, e quando se clica em show more apresenta o link para o WD1 e WD2",
-        "links": [],
-        "images": 
-        [
-            {
-                "name": "status-verif1.png"
-            },
-            {
-                "name": "status-verif2.png"
-            }
-        ]
-    },
-    {
-         "id": 26,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "04-12-2025",
-        "title": "🏴‍☠️ Banimento entregadores",
-        "text": "\nLançamos banimentos para entregadores que mantiveram o STATUS DE INFRATOR por 4 semanas consecutivas. Quem são os infratores: eles cancelam demais, entregam com atraso ou não finalizam a entrega completamente. Todos esses sinais fazem parte do status de Infrator.\n\n 🔘 São Paulo \n\n Regras de banimento:\n🔘 O usuário mantém o status de Infrator por 4 semanas consecutivas\n🔘 O usuário tem 4 ou mais banimentos de curto prazo\n\n Cronograma de banimento:\n🔘 Os banimentos serão emitidos uma vez por semana, toda terça-feira.\n\n Texto do banimento:\n\n Olá.\n Devido a violações repetidas das regras do serviço de entregas, seu acesso ao serviço foi limitado.",
-        "links": [
-            {
-                "title": "Informações detalhadas:",
-                "url": "https://indrive.com/contacts/support"
-            }
-        ],
-        "images": 
-        [
-    
-        ]
-    },
-    {
-         "id": 25,
-        "month": "dezembro",
-        "year": 2025,
-        "date": "03-12-2025",
-        "title": "⛽PARCERIA SHELL E STATUS LEGEND",
-        "text": "\nAtualizações sobre a parceria Shell e novo status / nível: Legend\n\n Fechamos uma parceria exclusiva com a Shell em cidades chaves: Campo Grande, Porto Velho, Governador Valadares, Boa Vista, Curitiba e Manaus.\n\n O nível no nosso app agora é a chave pra desbloquear cupons de R$0,10/litro, R$0,20/litro ou até R$150 para abastecer com o Shell Box. A escolha inteligente é clara porque a inDrive te dá vantagem que mais ninguém tem na hora de abastecer.\n\n🔘 0,10RS por litro para todos os motoristas (Basic)\n🔘 0,20R$ por litro para motoristas Platinum\n 🔘 150 reais para motoristas Legend! \n\n Importante: \n\n * Legend é uma nova classificação que foi lançada no modelo teste A/B, o que significa que não são todos os motoristas que verão esse novo nível no aplicativo. \n ** 150 reais para os Legends é algo exclusivo até 19 de Dezembro. Depois desse período o benefício será 100 reais. \n\n ❗Para verificar o desconto precisa baixar o aplicativo Shell Box e clica no menu lateral na aba 'meus descontos' \n\n 👇🏻 Link para compartilhar com os motoristas:",
-        "links": [
-            {
-                "title": "Informações da campanha",
-                "url": "https://promotion.indrive.com/pt/rh/br/exec-benefits"
-            },
-            {
-                "title": "Vídeo jornada motorista recebendo o push",
-                "url": "https://docs.google.com/presentation/d/1BJov9vib5IqHzJPjS2UBqFZDnzONeAuUmzMi6Lblg20/edit?usp=sharing"
-            }
-        ],
-        "images": 
-        [
-            {
-            "name": "shell.png"
-            }
-        ]
-    },
-    {
-        "id": 24,
-        "month": "novembro",
-        "year": 2025,
-        "date": "26-11-2025",
-        "title": "💰REEMBOLSO AUTOMÁTICO",
-        "text": "\n🔘 Iniciamos ontem análise automática de reembolso em todas as cidades(Motorista e moto táxi), então todo pedido cancelado será analisado no prazo de 6h, enquanto esse prazo está ativo o motorista não consegue solicitar reembolso via chat, nossa automação envia uma mensagem detalhando. \n\nOBS: O valor fica retido no aplicativo e a descrição fica como : Pagamentos suspensos, quando se clica é apresentado uma mensagem.\n\n Seguem todos os prints, do atendimento em chat até a opção no aplicativo:",
-        "links": [],
-        "images": [
-            {
-            "name": "reembolso-automatico-1.png"
-            },
-            {
-            "name": "reembolso-automatico-2.png"
-            },
-            {
-            "name": "reembolso-automatico-3.png"
-            },
-            {
-            "name": "reembolso-automatico-4.png"
-            }
-        ]
-    },
-    {
-        "id": 23,
-        "month": "novembro",
-        "year": 2025,
-        "date": "26-11-2025",
-        "title": "❌ RESTAURAÇÃO DE CONTA",
-        "text": "\n🔘 A partir de hoje não restauramos nenhuma conta excluída, seja a exclusão feita por um analista ou pelo motorista/passageiro diretamente no aplicativo. Caso um motorista faça contato e vocês verificarem que foi excluída por favor informem que é necessário realizar a criação de outra conta\n\n OBS: Sempre verificar se o número cadastrado está com 1, 01, 11 no final, pois se tiver com o número completo normal ele não irá conseguir acessar o aplicativo pois irá apresentar uma mensagem que a conta foi excluída.\n\n Atenção se no perfil tem User is deleted e abaixo o deleted by user-termination service, então quer dizer que foi o próprio motorista que fez a exclusão diretamente no aplicativo.",
-        "links": [],
-        "images": [{
-            "name": "conta-excluida.png"
-        }]
-    },
-      {
-     "id": 22,
-        "month": "novembro",
-        "date": "24-11-2025",
-        "year": 2025,
-        "title": "🔎 CASOS REPASSADOS NA LIBERAÇÃO",
-        "text": "\n➡️ Casos que se passam na #liberação-suporte-br \n\n🔘 Contas duplicadas\n🔘 Solicitação de mudança de vertical\n🔘 Recusa\n🔘 Alteração de dados do veículo(placa, cor, afins)\n🔘 Aprovação de Angola\n🔘 Casos excepcionais (aval do sênior ou supervisor)\n\n➡️ Casos que se passam no #projeto-verificação\n\n🔘 Todos que sejam diferentes dos citados acima\n\n OBS: O foco do projeto tem foco maior em aceleração de documentos",
-        "links": [],
-        "images": []
-    },
-    {
-        "id": 21,
-        "month": "novembro",
-        "year": 2025,
-        "date": "23-11-2025",
-        "title": "🚘 CAMPANHA LAVAGEM DE CARRO",
-        "text": "\n🔘 Estamos com uma campanha ativa na cidade de Manaus, Curitiba e Campo Grande, onde se o motorista alcançar a quantidade de corrida ele ganha uma lavagem em seu lindo possante para sair com ele brilhando para as próximas corridas.\n\n⚠️ Necessário que tenham recebido a comunicação específica de elegibilidade encaminhada diretamente pelo InDrive para participarem da Ação, por meio de “push”, e-mail, comunicação da ação no Aplicativo ou qualquer outro meio de comunicação oficial do InDrive \n\n🔘 Dúvidas => Enviar o link abaixo para o motorista:",
-        "links": [
-            {
-                "title": "Faça Corridas e Ganhe uma Lavagem de Carro ",
-                "url": "https://promotion.indrive.com/pt/rh/br/exec-terms-car-wash"
-            }
-        ],
-        "images": [
-            {
-                "name": "campanha-lavagem.png"
-            }
-        ]
-    },
-    {
-     "id": 20,
-        "month": "novembro",
-        "year": 2025,
-        "date": "21-11-2025",
-        "title": "💸 NOTA FALSA",
-        "text": "\n🔘 Nota falsa a partir de R$50 enviamos para o setor de incidentes. \n\nOBS: Apenas a partir de R$50",
-        "links": [],
-        "images": []
-    },
-    {
-        "id": 19,
-        "month": "novembro",
-        "year": 2025,
-        "date": "21-11-2025",
-        "title": "🧾 SOLICITAÇÃO DE HISTÓRICO",
-        "text": "\n🔘 A partir de hoje teremos um mudança no procedimento para quando o usuário solicita um histórico na plataforma, seja para seguro, imposto de renda ou afins. Vocês terão que envia no grupo private channel todos esses dados abaixo, enviar todos de forma completa: \n\n 1 - ID do usuário\n2 - Número de celular cadastrado no app(com ddd)\n 3 - A data ou o período desejado para o relatório: (informar a data completa)\n4 - Foto da sua CNH (frente):\n5 - Uma selfie segurando a mesma CNH ao lado do rosto (com o lado da foto visível):\n6 - Explicar o motivo da solicitação de forma completa e resumida:\n7- Endereço de e-mail válido para envio recebimento\n\n Esse novo procedimento tem como principal objetivo diminuir o prazo para envio desse documentos e também padronização.",
-        "links": [],
-        "images": []    
-    },
-    {
-        "id": 18,
-        "month": "novembro",
-        "year": 2025,
-        "date": "21-11-2025",
-        "title": "🟢🟠🟡 NOVOS STATUS NO JUST",
-        "text": "\n A partir de hoje, você verá novos status no Just que nos permitirão acompanhar com precisão todo o tempo de trabalho das equipes. \n\n Status de “Outras Atividades” e como devem ser utilizados:\n\n🔘 Training (Treinamento) — Quando o analista estiver participando de qualquer sessão de treinamento\n🔘Meeting (Reunião) — Quando o analista estiver em uma reunião com o Sênior/Supervisor/ou qualquer outra reunião interna \n🔘 Tickets — Quando o analista estiver trabalhando em e-mail\n🔘 Outbound calls (Chamadas Ativas) — Quando o analista estiver responsável pela planilha\n🔘 Regional tasks (Tarefas Regionais) — Quando o analista estiver executando uma tarefa situacional (!) atribuída por um gestor (por exemplo: retornos de chamadas a usuários, rotulagem de chatbot, busca de dados etc.)",
-        "links": [],
-        "images": [
-            {
-                "name": "chat-status.png" 
-            }
-        ]
-    },
-    {
-        "id": 17,
-        "month": "novembro",
-        "year": 2025,
-        "date": "20-11-2025",
-        "title": "❗NOVA MENSAGEM DE SAUDAÇÃO ❗",
-        "text": "\nComo quase 80% das conversas agora começam com o chatbot (que já cumprimenta o usuário) e, porque uma parte significativa dos casos restantes envolve questões relacionadas à segurança, onde nossa saudação atual soa inadequada, decidimos alterar a mensagem automática enviada quando um chat é atribuído a um agente. \n\n📌 A partir de hoje, assim que o chat entrar na fila de um agente (evento Assigned), o usuário receberá automaticamente a seguinte mensagem:\n\n  O agente entrará em contato em breve. Enquanto isso, pedimos que compartilhe quaisquer detalhes adicionais que possam nos ajudar a atendê-lo melhor. \n\n Com base no nosso ASA, a primeira resposta do agente geralmente ocorre em até 40 segundos — portanto, lembre-se de dizer olá quando entrar no chat! \n\n Exemplo de saudação. Não é obrigatório o uso: \n\n Olá! Sou a Maria, sua agente de suporte. Vou ajudá-lo em apenas um momento.",
-        "links": [],
-        "images": []
-    },
-    {
-        "id": 16,
-        "month": "novembro",
-        "year": 2025,
-        "date": "18-11-2025",
-        "title": "⚠️ Mudança no envio de push para casos de não pagamento. ⚠️",
-        "text": "\n🔘 A partir de agora para casos de não pagamento, iremos enviar esse push abaixo e não iremos solicitar autorização de contato: \n\n PUSH: \n\nOlá! Recebemos a notificação de que ficou em aberto o valor da corrida. Por gentileza entre em contato com o motorista xx através do app no prazo de 24h, caso contrário sua conta poderá ser bloqueada: Menu - Histórico de Pedidos e selecione o ícone do telefone para realizar a ligação. \n\n🔘 Por que essa mudança: Com o push anterior o contato do motorista ficava disponível durante muito tempo e isso poderia gerar algum tipo de conflito e o passageiro consegue fazer contato com o motorista diretamente pelo aplicativo no prazo de 24h. Então não é necessário solicitar autorização de contato. \n\nOBS: Para os casos de pedidos cancelados e fora do prazo de 24h será necessário solicitar o contato e enviar no push (Lembrando que esses casos não são elegíveis a bônus) \n\nCom esse novo procedimento buscamos melhorar nosso nível de atendimento e satisfação. \n\nTodos os scripts foram alterados em just, sendo eles: npg1, npgfinal, chuva, chateado \nNome do push em cherdak : NPG ATUAL",
-        "links": [],
-        "images": []
-    },
-    {
-        "id": 15,
-        "month": "novembro",
-        "year": 2025,
-        "date": "17-11-2025",
-        "title": "📃 MUDANÇA NO SCRIPT DE ENVIO PARA INCIDENTES.",
-        "text": "\nSegue o novo script: \n\nLamentamos muito que você tenha passado por essa situação. Nossos colegas entrarão em contato em breve — por favor, fique atento. Analisaremos cuidadosamente sua solicitação e faremos todo o possível para ajudá-lo(a). Caso tenha alguma dúvida ou precise de mais detalhes, entre em contato conosco pela aba “Segurança” no menu à esquerda — estamos sempre à disposição para ajudar. \n\nA partir do dia 24/11 o envio desse script é obrigatório, iremos começar a avaliar. Sempre que um atendimento for escalado para IM, vocês devem enviar o script acima. \n\nEm casos de despontuamento, vocês poderão ver nos campos de Template Usage e Tom de Voz. Sim, serão despontuados os dois campos. É preciso atenção.",
-        "links": [],
-        "images": []
-    },
-    {
-        "id": 14,
-        "month": "novembro",
-        "year": 2025,
-        "date": "17-11-2025",
-        "title": "⚠️ CORRIDA PAGA E CANCELADA PELO MOTORISTA ⚠️",
-        "text": "\n Nos casos em que houver corridas pagas antecipadamente e posteriormente canceladas pelo motorista com o pagamento via Pix devidamente confirmado na Belvo, o motorista deverá ser bloqueado de forma permanente, até que apresente o comprovante da devolução do valor ao passageiro. \n\nDa mesma forma, nos casos em que o passageiro realizar pagamento duplicado, confirmado na Belvo, será adotado o mesmo procedimento. \n\n📌 Todos os casos devem ser registrados no cherdak.",
-        "links": [{
-        "title": "BELVO",
-        "url": "https://cherdak.console3.com/global/payment-methods/belvo-payment-intents?"
-        }],
-        "images": []
-    },
-    {
-        "id": 13,
-        "month": "novembro",
-        "year": 2025,
-        "date": "13-11-2025",
-        "title": " 💆‍♂️⏯️💆 NOVA POLÍTICA DE PAUSAS",
-        "text": "\nApós consultarmos nossas equipes locais de RH e Jurídico, definimos as regras obrigatórias que devem ser seguidas. \n\n➡️ Garantimos que a nova estrutura ofereça a todos uma oportunidade para descansar durante um dia de trabalho movimentado. \n\nA partir de 17/11 esta será nossa  estrutura de pausas: \n\n- Pausa para almoço: 60 minutos. \n- Pausas curtas: 10 minutos a cada 2 horas (Opcionais, mas recomendadas). \n- Pausas muito curtas para necessidades fisiológicas: 5 minutos (para serem usadas quando necessário).",
-        "links": [],
-        "images": []
-    },
-    {
-        "id": 12,
-        "month": "novembro",
-        "year": 2025,
-        "date": "13-11-2025",
-        "title": " 🚀  RELANÇAMENTO DE CAMPO GRANDE!",
-        "text": "\n 🎉 Estamos relançando e não há mais limite de casos de 'não pagou'. Se os requisitos estiverem corretos, ou seja: \n\n- Pedido concluído \n\n 🚨 Não precisamos mais dos critérios: \n\n- Autorização de contato \n- Prazo de 24h \n\nPodemos realizar o reembolso, independentemente da quantidade de vezes. \n\nApenas cidade de Campo Grande!! ",
-        "links": [],
-        "images": []
-    },
-     {
-        "id": 11,
-        "month": "novembro",
-        "year": 2025,
-        "date": "12-11-2025",
-        "title": "🚨 TAGS: 'Left point B'",
-        "text": "\n📌 QUANDO USAR ESTA TAG:  Selecione essa tag quando o entregador informar que a encomenda foi entregue, mas ele não consegue completar o pedido porque já saiu do Point B e está fora do raio permitido. \n\nOpções disponíveis que podemos oferecer aos entregadores: \n\n- Retornar ao Point B e concluir o pedido lá.\n- Cancelar o pedido: O entregador pode cancelar o pedido pelo app, mas somente após receber confirmação do remetente. (Em breve compartilharemos mais instruções sobre essa opção.) \n- Aguardar confirmação: Transferir para o time de outbound, e nós entraremos em contato com o destinatário. Assim que confirmarmos que a encomenda foi entregue, concluiremos a corrida pelo nosso lado.",
-        "links": [],
-        "images": []
-    },
-    {
-        "id": 10,
-        "month": "novembro",
-        "year": 2025,
-        "date": "12-11-2025",
-        "title": "🚨 NOVAS TAGS: PIX",
-        "text": "\nApós mapeamento de casos realizamos a criação de novas tags para os casos de pix, segue abaixo: \n\n- Para pagamentos duplicados feitos no app - Cashless / Duplicate payment / LightCashless / Payment inside de app \n- Para pagamentos em que o passageiro pagou uma vez no app e a segunda vez fez o pagamento “por fora” - Cashless / Duplicate payment / LightCashless Payment outside the app \n- Para casos onde o passageiro alega ter feito o pagamento e o motorista não realizou a corrida - Cashless /  Paid for unrealized trip \n\nOBS: Sempre é necessário consultar no sistema antes de marcar a tag, pois precisamos ter ciência se o pedido é LightCashless  ou não",
-        "links": [],
-        "images": []
-    },
-    {
-        "id": 9,
-        "month": "novembro",
-        "year": 2025,
-        "date": "12-11-2025",
-        "title": "⚠️ NOVAS CIDADES NO PACOTE INTERCITY",
-        "text": "\nTivemos inclusão de novas cidades na modalidade de cidade a cidade (intercity) para pacote. \n\nPor favor verifiquem no Link abaixo todas as cidades que temos pacote ou não monetizado.",
-        "links": [{
-            "title": "Planilha Intercity",
-            "url": "https://docs.google.com/spreadsheets/d/1tdxcpto46M9WnUcPMxddVhOt-oJlDzBHiFW4mDV9JAs/edit?gid=1416983840#gid=1416983840"
-        }],
-        "images": []
-        
-    },
-    {
-        "id": 8,
-        "month": "novembro",
-        "year": 2025,
-        "date": "10-11-2025",
-        "title": "🎁 CAMPANHA DE SORTEIO EM LUANDA",
-        "text": "\nA partir de 10 de novembro, lançaremos uma campanha de sorteio para motoristas em Luanda. \n\nPrincipais detalhes: \n\n🗓️ Período: de 10 de novembro a 14 de dezembro de 2025 \n🎯 Elegibilidade: todos os motoristas registrados em Luanda na inDrive com conta verificada \n🚘 Critério: a cada 5 viagens concluídas em uma semana (de segunda a domingo), o motorista recebe 1 entrada no sorteio \n🏆 Prêmios principais: carro, forno, frigorífico e smart TV \n🎁 Prêmios semanais (durante 6 semanas): smartphone, vales de supermercado e vales de combustível \n☎️ Contato com os vencedores: será feito pelo número de telefone cadastrado no aplicativo inDrive \n\n❗ Observações: cada vencedor só pode receber um prêmio, e os prêmios não podem ser trocados por dinheiro \n\nCertifique-se de informar corretamente os motoristas caso entrem em contato com dúvidas. \n\nTodos os detalhes e regras completas estão no documento de Termos e Condições (versão em português):",
-        "links": [
-            {
-            "title": "Documento T&C",
-            "url": "https://docs.google.com/document/d/1QxkOm1JkVFA1cOHJzoagPgGQm97sUqn3Hmtxm_tPQGM/edit?tab=t.0#heading=h.l8dhjeh28jlk"
-            },
-            {
-            "title": "Página da promoção:",
-            "url": "https://promotion.indrive.com/pt/rh/ao/exec-contest-luanda"
-            }
-        ],
-        "images": []
-    },
-     {
-        "id": 7,
-        "month": "novembro",
-        "year": 2025,
-        "date": "10-11-2025",
-        "title": "🚨 SAUDAÇÃO NO CHAT MUDOU",
-        "text": "\nNossa saudação mudou!: \n\nEm parceria com o team de QA, realizamos a atualização do script inicial para os chats recebidos a partir de hoje. \n\nScript já está salvo no JUST. \n\nOlá, Sr (nome), é um prazer atendê-lo. Poderia nos dar mais detalhes sobre a situação? Dentro de alguns instantes estarei dando continuidade a sua solicitação. \n\nShortcode: Oi",
-        "links": [],
-        "images": []
-    },
-     {
-        "id": 6,
-        "month": "novembro",
-        "year": 2025,
-        "date": "03-11-2025",
-        "teste": "teste",
-        "title": "🚨 Requisitos de Documentos para o Brasil",
-        "text": "\nOs Requisitos de Documentos para o Brasil na Base de Conhecimento de Verificação já estão disponíveis! \n\n ➡️ Agora vocês podem consultar facilmente quais documentos são necessários para o processo de verificação pelo link baixo. \n\n Isso vai ajudar bastante na hora de conferir se os usuários estão enviando os documentos corretos. 💪🏻 \n\n Próximos passos: \n\n Adicionar descrições de processos (instruções) \n\n Traduções para outros idiomas \n\nMelhorar a navegação \n\n Organizar treinamentos sobre como usar a Base de Conhecimento",
-        "links": [{
-            "title": "Base de Conhecimento",
-            "url": "https://indriver.atlassian.net/wiki/spaces/DRV/pages/2833842302/Brazil"
-        }],
-        "images": [
-            {
-                "name": "basedeconhecimento.png"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "month": "novembro",
-        "year": 2025,
-        "date": "06-11-2025",
-        "title": "💳 INSTABILIDADE NO MODO CASHLESS",
-        "text": "\nEstamos com uma instabilidade no modo cashless, onde o motorista transfere o valor para conta bancária e não recebe, esse é um problema que já foi relatado e estão verificando o que ocorre para normalizar o mais rápido possível. Por favor não enviem mais para fintech através do chat, só enviem esse script abaixo para o motorista: \n\nIdentificamos uma instabilidade momentânea em nosso método de transferência online. Nosso time técnico já está ciente e trabalha com prioridade máxima para restabelecer o serviço o mais rápido possível. \n\n💡 Não é necessário realizar nenhuma ação adicional neste momento — assim que o sistema for normalizado, tudo voltará a funcionar normalmente. \n\nPedimos desculpas pelo transtorno e agradecemos muito pela sua compreensão e paciência. Estamos comprometidos em garantir que sua experiência seja sempre a melhor possível. 💙 \n\nAgradecemos por confiar em nós!",
-        "links": [],
-        "images": []
-    },
-     {
-        "id": 4,
-        "month": "novembro",
-        "year": 2025,
-        "date": "01-11-2025",
-        "title": "🚨 TRANSFERÊNCIA DE CASOS PARA QUALIDADE",
-        "text": "\nBom dia Pessoal, o setor de incident fez contato conosco informando sobre os casos de conflitos que estão sendo repassados para eles, para evitar qualquer tipo de erro, segue abaixo quais conflitos devem ser repassados e também para não pagou sem autorização:\n\n Casos que devem ser repassados para incidentes e não pagou sem solicitar autorização: \n\n🔘 Ameaça de morte de forma direta ou indireta \n🔘 Ameaçar ir na casa do cliente \n🔘 Enviando mensagem ou ligando \n🔘 Discriminação(homofobia, gordofobia, racismo,xenofobia, etc..)\n\nCasos que não devem ser repassados para incidentes e que precisam de autorização: \n\n🔘 Me chamou de feia, gritou comigo, falou palavrão \n🔘 Passageiro estava bebado \n🔘 Xingamentos em geral que não tenha ameaça a vida \n\nOBS: Antes de passar para incidentes lembrem de recolher um bom relator e avaliar se o caso se encaixa pra transferência ou não.",
-        "links": [],
-        "images": []
-    },
-     {
-        "id": 3,
-        "month": "outubro",
-        "year": 2025,
-        "date": "31-10-2025",
-        "title": " 🛵 TRANSFERÊNCIA DE ENTREGAS NÃO REALIZADAS PARA QUALIDADE",
-        "text": "\n Boa tarde Pessoal, segue abaixo uma mudança referente ao processo de entrega não realizada que passamos para incident-management-support-brazil \n\n🔘Tratamento em chat continua normal, analista responsável solicita todos os dados e repassa para Outbound Calls via botão do just \n🔘Para o agente responsável na planilha só iremos passar caso de entrega não realizada para incidents quando o status estiver em DONE e finalizada no ponto B, caso não tenha esse critério não repassamos \n🔘Também não repassamos pedidos B2B, é totalmente conosco. \n🔘Por que essa mudança? Notamos que estávamos tendo um retrabalho muito grande para ficar ligando para os casos quando ultrapassava o prazo de 2h, então agora esperamos um maior controle da nossa parte e de incident",
-        "links": [],
-        "images": []
-    }, 
-         {
-        "id": 2,
-        "month": "outubro",
-        "year": 2025,
-        "date": "30-10-2025",
-        "title": "🚚 Comunicado: Fluxo de Processo - Transporte de Substâncias Proibidas por Entregadores",
-        "text": "\n Prezados Entregadores, \n É obrigatório seguir o fluxo de processo abaixo para o transporte de encomendas, visando a segurança e o cumprimento das regulamentações. Lembrem-se que nossas Regras de Entrega já proíbem expressamente o envio de quaisquer substâncias ilícitas. \n\n 🔴 Antes de Iniciar a Entrega - Ação - Consequência/Diretriz \n\n1. Verificar o Conteúdo: O entregador deve verificar o pacote na frente do remetente antes de iniciar a entrega (Ponto A). \n2. Suspeita de Item Proibido: Se houver suspeita de que o remetente está tentando enviar substâncias proibidas, o entregador deve recusar a entrega no Ponto A e não iniciar a corrida. \n3. Pedido de Reembolso: Se o entregador iniciar a corrida e depois recusar no Ponto A, o reembolso da taxa de serviço não será emitido, pois a verificação deveria ter sido feita antes do início. \n\n ⚠️ Após a Coleta da Encomenda (Corrida Iniciada) - Cenário - Ação Obrigatória do Entregador\n\n1. Nova Suspeita   - O entregador não deve abrir o pacote na ausência do remetente. Se suspeitar do conteúdo, deve retornar imediatamente ao Ponto A (remetente). O pacote não  deve ser danificado ou descartado. \n2. Intervenção Policial   - Se o entregador for parado pela polícia e os itens proibidos forem descobertos e confiscados: Não será bloqueado(a).  A taxa de serviço deve ser reembolsada. \n\n 🚨 Falha em Devolver o Pacote \n\n Se um entregador descartar ou se desfizer do pacote em vez de devolvê-lo, a conta será bloqueada até que o pacote seja retornado ou um acordo mútuo com o remetente seja alcançado. \n Se tivermos um boletim de ocorrência confirmando o incidente, podemos proceder com um reembolso manual, visto que o entregador não concluiu a entrega por ter sido parado pela polícia, o que estava fora de seu controle. \n\n 🚨 Casos desse fluxo deve continuar sendo encaminho em incidentes devido  ao passageiro descumprir regras do app . ",
-        "links": [],
-        "images": []
-    },
-    {   "id": 1,
-        "date": "27-10-2025",
-        "year": 2025,
-        "month": "outubro",
-        "title": "💸 PIX POR ENGANO",
-        "text": "\n\nA partir de hoje para casos de pix incorreto seja do motorista ou passageiro, só iremos enviar um push constando o nome do passageiro, sem a necessidade de relato ou enviar para incidentes. segue push e script. PUSH já salvo no cherdak, como Pix incoreto:\n\n PUSH: \n\nRecebemos um relato do passageiro XXX de que um PIX foi realizado de maneira equivocada para o senhor. Pedimos que você realize o estorno do valor diretamente pelo banco em que o valor foi recebido. \n\nSCRIPT: \n\nEntendemos a situação e lamentamos pelo transtorno. \nComo a inDrive não realiza intermediação de pagamentos entre passageiros e motoristas parceiros, não temos acesso aos valores acordados ou pagos. O pagamento acontece diretamente entre as partes, de forma independente, e por isso não conseguimos intervir em casos relacionados a valores. \n\nRecomendamos verificar diretamente com o banco ou meio de pagamento utilizado para identificar o que pode ter ocorrido. \n\nAinda assim, encaminharemos uma notificação ao usuário envolvido para reforçar nossos padrões de conduta. \n\nPalavra chave: errado",
-    "links": [],
-    "images": []
     }
-
-   
-    
-]
+    ]

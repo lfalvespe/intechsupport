@@ -64,7 +64,7 @@
     position: absolute;
     top: 0;
     left:0;
-    height: 100vh;
+    height: 300vh;
     width: 100vw;
     white-space: pre-wrap;
     font-size: .9em;
@@ -72,7 +72,7 @@
 .modalContent {
     width: 600px;
     position: relative;
-    top: 60%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(47, 51, 40);
@@ -84,4 +84,10 @@
 
 .closeModal {
   text-align: right;
+}
+
+@media screen and (max-width: 570px) {
+    .modalContent {
+        width: 90vw;
+    }
 }

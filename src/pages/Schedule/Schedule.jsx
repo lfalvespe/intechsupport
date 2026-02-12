@@ -9,37 +9,32 @@ const Schedule = () => {
   const users = [
     {
       name: "Alice",
-      escala: [20, 21, 3, 4],
+      escala: [22, 23, 1, 2, 11, 12],
     },
 
     {
       name: "Diana",
-      escala: [22, 23, 5, 6],
+      escala: [24, 25, 3, 4, 13, 14],
     },
 
     {
       name: "Edvaldo",
-      escala: [24, 25, 7, 8],
-    },
-
-    {
-      name: "Emerson",
-      escala: [12, 13, 26, 27, 9, 10],
+      escala: [],
     },
 
     {
       name: "Israilane",
-      escala: [14, 15, 28, 29, 11, 12],
+      escala: [26, 27, 5, 6, 15, 16],
     },
 
     {
       name: "Luiza",
-      escala: [16, 17, 30, 31],
+      escala: [28, 29, 7, 8, 17, 18],
     },
 
     {
       name: "Luiz Fernando",
-      escala: [18, 19, 1, 2],
+      escala: [20, 21, 30, 31, 9, 10, 19, 20],
     },
   ];
 
@@ -74,11 +69,16 @@ const Schedule = () => {
               <div className={styles.userName}>{u.name}</div>
               {u.escala.includes(dataAtual) ? (
                 <>
-                  <div className={styles.userStatus} style={{backgroundColor:"rgba(107, 15, 15, 1)"}}>⚠️🤪⚠️</div>
-                  <div className={styles.blink}>o iluminado</div>
+                 <div className={styles.blink}>o iluminado</div>
+                  <div className={styles.userStatus} style={{backgroundColor:"rgb(151, 19, 19)"}}>⚠️🤪⚠️</div>
                 </>
               ) : (
-                <div className={styles.userStatus}>😎 🥰🙃</div>
+                u.name != 'Edvaldo' 
+                ? <div className={styles.userStatus}>💚 😎 💚</div>
+                : <>
+                    <div style={{color: "#85d5f5", fontWeight: 'bold'}}>VERIFICAÇÃO</div>
+                    <div className={styles.userStatus}>✔️ 👨🏻‍💻 ✔️</div>
+                </>
               )}
             </div>
           ))}
