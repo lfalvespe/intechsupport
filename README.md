@@ -1,6 +1,6 @@
 # Complete Client-Side React Web Application
 
-## <ing src="/public/screenshot.png">
+## <div align="center"> <img src="/public/screenshot.png" width=400> </div>
 
 ## https://intechsupport.vercel.app/
 
